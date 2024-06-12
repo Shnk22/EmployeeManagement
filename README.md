@@ -1,5 +1,25 @@
 # Employee Birthday Reminder System
 
+##File Structure
+1.Starting of with virtual environment --venv file
+  Why a Virtual Environment?
+  A virtual environment in Python is used to create an isolated environment for     Python projects. This isolation ensures that the dependencies and libraries        used by one project do not interfere with those used by another project
+2.The second file is app file --app.py
+   This controls this flow for files coming from the "controller folder"
+   This is also the entry point .
+
+3.The Controller Folder
+  Inside the controller folder we have init__.py which imports all the files         present in the controller at once and send it to the app.py file
+  
+  Pls ignore the product controller file
+  
+  The "User_controller" file sends emails and as all the paths connecting it to       the user model file 
+ 4. The Model folder 
+    Inside the model folder we have user_model which has all functions connected
+    to the particular paths
+  
+
+
 This project is designed to send email reminders to managers about their employees' upcoming birthdays. The system sends reminders one week and one day before the employees' birthdays and updates the database accordingly.
 
 ## Table of Contents
