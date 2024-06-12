@@ -1,9 +1,11 @@
 # Employee Birthday Reminder System
 
 ##File Structure
+
 1.Starting of with virtual environment --venv file
   Why a Virtual Environment?
   A virtual environment in Python is used to create an isolated environment for     Python projects. This isolation ensures that the dependencies and libraries        used by one project do not interfere with those used by another project
+  
 2.The second file is app file --app.py
    This controls this flow for files coming from the "controller folder"
    This is also the entry point .
